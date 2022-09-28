@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+header{
+    display:flex;
+}
+h1{
+    padding-top:2.5rem ;
+    font-size: 3rem;
+}
+header img{
+    width:200px;
+}
+nav{
+    display: flex;
+    padding:3px;
+}
+nav a{
+    padding:.4rem;
+    font-size:1.2rem;
+}
+
+.active{
+    text-decoration: none;
+    color:black;
+}
+main{
+    display:flex;
+}
+main img{
+    width:250px;
+    height: 250px;
+    padding: 1rem;
+    border-radius:1.5rem;
+}
+article{
+    padding-left: 2rem;
+    margin-top:1rem;
+}
+p{
+    margin-left:1rem;
+    width: 50rem;
+}
